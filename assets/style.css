@@ -3,16 +3,20 @@
     font-size: 8rem;
     -webkit-mask-image: -webkit-gradient(
         linear, left top, right bottom,
-        color-stop(0.00,  rgba(0,0,0,0.8)),
-        color-stop(0.499,  rgba(0,0,0,0.8)),
-        color-stop(0.50,  rgba(0,0,0,1)),
-        color-stop(1.00,  rgba(0,0,0,1)));
+        color-stop(0.00,  rgba(0, 0, 0, 0.8)),
+        color-stop(0.499,  rgba(0, 0, 0, 0.8)),
+        color-stop(0.50,  rgba(0, 0, 0, 0.7)),
+        color-stop(0.509,  rgba(0, 0, 0, 0.7)),
+        color-stop(0.51,  rgba(0, 0, 0, 1)),
+        color-stop(1.00,  rgba(0, 0, 0, 1)));
 }
 
 .outer {
     color: #235070;
     animation: spin-outer 15s infinite linear;
-    /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); */
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .middle {
@@ -22,7 +26,7 @@
 
 .inner {
     color: #235070;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     transform: scale(0.5);
 }
 
