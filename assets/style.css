@@ -1,25 +1,26 @@
 #logo {
     padding: 2rem;
     -webkit-mask-image: -webkit-gradient(
-        linear, left top, right bottom, 
+        linear, left top, right bottom,
         color-stop(0.00,  rgba(0,0,0,0.8)),
         color-stop(0.499,  rgba(0,0,0,0.8)),
         color-stop(0.50,  rgba(0,0,0,1)),
-        color-stop(1.00,  rgba(0,0,0,1)));    
+        color-stop(1.00,  rgba(0,0,0,1)));
 }
 
 .outer {
-    color: #99F;
-    animation: spin-outer 19s infinite linear;
+    color: #235070;
+    animation: spin-outer 15s infinite linear;
     // text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .middle {
-    color: #77D;
-    animation: spin-middle 20s infinite linear;        
+    color: #FFF;
+    animation: spin-middle 20s infinite linear;
 }
 
 .inner {
+    color: #235070;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
@@ -29,7 +30,7 @@
 }
 
 @keyframes spin-middle {
-    from { transform: rotate(0deg) scale(0.8); }
-    to { transform: rotate(360deg) scale(0.8); }
+    from { transform: rotate(0deg) scale(0.84); }
+    to { transform: rotate(360deg) scale(0.84); }
 }
 
