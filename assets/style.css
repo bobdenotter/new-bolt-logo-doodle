@@ -1,5 +1,6 @@
 #logo {
-    padding: 2rem;
+    padding: 1rem;
+    font-size: 8rem;
     -webkit-mask-image: -webkit-gradient(
         linear, left top, right bottom,
         color-stop(0.00,  rgba(0,0,0,0.8)),
@@ -11,7 +12,7 @@
 .outer {
     color: #235070;
     animation: spin-outer 15s infinite linear;
-    // text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); */
 }
 
 .middle {
@@ -22,6 +23,7 @@
 .inner {
     color: #235070;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    transform: scale(0.5);
 }
 
 @keyframes spin-outer {
