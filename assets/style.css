@@ -30,7 +30,7 @@
 .middle {
     color: #FFF;
     pointer-events: none;
-    transform: rotate(0deg) scale(0.85);
+    transform: rotate(0deg) scale(0.83);
 }
 
 .inner {
@@ -47,6 +47,6 @@
 
 @keyframes spin-middle {
     from { transform: rotate(0deg) scale(0.85); }
-    to { transform: rotate(380deg) scale(0.85); }
+    to { transform: rotate(360deg) scale(0.85); }
 }
 
